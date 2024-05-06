@@ -14,13 +14,13 @@ function NavBar() {
     return (
         <>
             <nav className="flex justify-between items-center h-24 max-w-[1248px] mx-auto px-4 text-white nav z-10" >
-                <h1 className="text-1xl navName text-center font-title">
-                    <ReactTyped strings={['^Jose Tejada.']}
-                        typeSpeed={80}
-                        backSpeed={80}
-                        loop
-                    />
-                </h1>
+                    <h1 className="text-1xl navName text-center font-title">
+                        <ReactTyped strings={['^Jose Tejada.']}
+                            typeSpeed={80}
+                            backSpeed={80}
+                            loop
+                        />
+                    </h1>
                 <ul className="flex space-x-4 mx-10 navItems max-md:hidden">
                     <li className="p-4 hover:underline hover:underline-offset-4">
                         <a href="#whoami">Who am I?</a>
