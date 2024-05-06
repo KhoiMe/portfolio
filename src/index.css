@@ -1,0 +1,75 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Unbounded:wght@200..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.font-title {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 0 0 8px rgba(255, 255, 255, .8);
+    letter-spacing: 1.2px;
+}
+
+.font-content {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.8rem;
+}
+
+.navName {
+    font-size: 1.8rem;
+    overflow: hidden;
+    /* border-right: .1em solid white; */
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.notNavName {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-shadow: 0 0 8px rgba(255, 255, 255, .8);
+    text-transform: lowercase;
+    letter-spacing: 1.2px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.navItems {
+    margin-top: 2%;
+    font-family: 'Unbounded', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: all 0.6s ease-in-out;
+}
+
+.navItems a:hover {
+    text-decoration-color: pink;
+    transition: all 0.6s ease-in-out;
+}
+
+.heroText {
+    font-style: italic;
+}
+
+
+.closedNavIcon {
+    z-index: auto;
+}
+
+.heroContainer {
+    z-index: -1;
+}
