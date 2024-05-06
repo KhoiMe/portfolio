@@ -10,8 +10,12 @@ function App() {
         <>
 
             <NavBar />
-            <Hero />
-            <KnowMe />
+            <div className='section'>
+                <Hero />
+            </div>
+            <div className='section'>
+                <KnowMe />
+            </div>
         </>
     );
 }

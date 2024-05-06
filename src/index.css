@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 
 body {
@@ -73,4 +74,8 @@ body {
 
 .heroContainer {
     z-index: -1;
+    height: 100vh;
+}
+.section {
+    scroll-snap-align: start;
 }
