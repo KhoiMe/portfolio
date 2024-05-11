@@ -29,6 +29,11 @@ body {
     font-size: 1.8rem;
 }
 
+.font-content-sm {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-optical-sizing: auto;
+}
+
 .navName {
     font-size: 1.8rem;
     overflow: hidden;
