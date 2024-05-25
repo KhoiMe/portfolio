@@ -24,9 +24,9 @@ function GetInTouch() {
     };
     return (
         <>
-            <div className="max-w[1245px] mt-8 mx-auto py-16 px-4 flex items-center justify-center text-white font-content-sm">
+            <div className="max-w[1245px]  mt-8 mx-auto py-16 px-4 flex items-center justify-center text-white font-content-sm">
                 <form id='getInTouch' ref={form} onSubmit={sendEmail}>
-                    <div className="getTouched w-96">
+                    <div className="getTouched mx-auto w-96">
                         <div className="mb-5">
                             <p className="block mb-5 font-title dark:text-white">Name</p>
                             <input type="text" name="user_name"
