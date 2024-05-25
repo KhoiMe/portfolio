@@ -6,7 +6,7 @@ function Hero() {
         <>
             <div className="text-white heroContainer">
                 <div className="max-w[800px] mt-[-96px] h-screen mx-auto text-center flex flex-col justify-center font-content">
-                    <h1 className="z-[-1] mx-20 md:text-7xl sm:text-5xl  justifiy-center text-center text-4xl font-bold md:py-6 p-2">
+                    <h1 className="z-[-1] mx-20 md:text-7xl sm:text-5xl justify-center text-center text-4xl font-bold md:py-6 p-2">
                         'The path I'm part of may be thy solution'
                     </h1>
                     <div className="devIcons">
