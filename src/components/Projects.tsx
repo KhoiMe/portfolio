@@ -1,4 +1,5 @@
 import tumascoImg from '../assets/tumascoImg.png'
+import toscanaImg from '../assets/hoteltoscana_screenshot.png'
 function Projects() {
     return (
         <>
@@ -23,7 +24,7 @@ function Projects() {
                     </div>
                     <div className="project-card max-w-xl bg-white shadow dark:bg-[#141414] dark:border-gray-700 mx-auto ease-in-out duration-500 hover:scale-110">
                         <a href="https://hoteltoscanaoriente.site" target='_blank'>
-                            <img className="" src={tumascoImg} alt="" />
+                            <img className="" src={toscanaImg} alt="" />
                         </a>
                         <div className="p-5">
                             <a href="https://hoteltoscanaoriente.site">
